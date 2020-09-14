@@ -1,5 +1,8 @@
 Viacheslav Frolov
 email: 7566724@gmail.com | +375(29)-756-67-24 | Minsk, Belarus
+[Linkedin](https://www.linkedin.com/in/slava-frolov-b14ab7169/) | 
+[jobs.tut.by](https://jobs.tut.by/resume/53955c8fff082d57fc0039ed1f374479634372) | 
+[Facebook](https://www.facebook.com/profile.php?id=100008835702860)
 
 <br/> 
 I'm an enthusiastic and detail-oriented junior Frontend Software Engineer and Business Analyst seeking an entry-level 
