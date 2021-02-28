@@ -1,1 +1,1 @@
-https://FrolovSlava.github.io/rsschool-cv/
+https://FrolovSlava.github.io/rsschool-cv/cv
