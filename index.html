@@ -7,34 +7,28 @@
         /* Desktop - 1 */
 
 
-        #body {
-            width: 1440px;
-            height: 1024px;
-            position: center;
-            background: #FFFFFF;
-            font-family: Arial,sans-serif;
+        .wrapper {
+            width: 1000px; /* Ширина первого слоя */
+            max-width: 100%;
+            margin: 0 auto;
+            padding-left: 16px;
+            padding-right: 16px;
+            border: 4px solid rgb(230, 230, 230); /* Параметры границы */
+            border-radius: 20px;
         }
 
         #photo{
-            position: absolute;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
             width: 210px;
             height: 201px;
-            left: 847px;
-            top: 30px;
         }
+
+
         #section_name{
             /* Viacheslav Frolov */
-
-
-            position: absolute;
-            width: 310px;
-            height: 50px;
-            left: 807px;
-            top: 224px;
-
-
-            font-style: normal;
-            font-weight: normal;
+            display: block;
             font-size: 24px;
             line-height: 40px;
             text-align: center;
@@ -46,17 +40,8 @@
             /* email: 7566724@gmail.com | +375(29)-756-67-24 | Minsk, Belarus */
 
 
-            position: absolute;
-            width: 646px;
-            height: 27px;
-            left: 637px;
-            top: 280px;
-
-            font-style: normal;
-            font-weight: normal;
+            display: block;
             font-size: 18px;
-            line-height: 27px;
-            /* identical to box height */
 
             text-align: center;
 
@@ -68,17 +53,8 @@
             /* Linkedin | jobs.tut.by | Facebook | */
 
 
-            position: absolute;
-            width: 366px;
-            height: 29px;
-            left: 777px;
-            top: 319px;
-
-            font-style: normal;
-            font-weight: normal;
-            font-size: 18px;
-            line-height: 29px;
-            /* identical to box height */
+            display: block;
+            font-size: 22px;
 
             text-align: center;
 
@@ -89,109 +65,84 @@
 
         #section_about_me{
             /* About me: I'm ... */
-
-
-            position: absolute;
-            width: 951px;
-            height: 73px;
-            left: 476px;
-            top: 400px;
-
-            font-style: normal;
+            display: block;
             font-size: 20px;
             line-height: 22px;
 
             color: #000000;
         }
+
+
+
+        .skills{
+            width: 20%; /* Ширина первого слоя */
+            max-width: 20%;
+            
+            padding-right: 16px;
+        }
+
+        
+
         #section_skills_head{
             /* Skills: */
-
-
-            position: absolute;
-            width: 53px;
-            height: 24px;
-            left: 476px;
-            top: 500px;
-
-            font-style: normal;
             font-weight: bold;
             font-size: 20px;
             line-height: 24px;
-            /* identical to box height */
-
-
             color: #000000;
-
-
         }
-        #section_skills{
-            position: absolute;
-            width: 99px;
-            height: 176px;
-            left: 545px;
-            top: 500px;
 
-            font-style: normal;
-            font-weight: normal;
+        #section_skills{
             font-size: 20px;
             line-height: 22px;
+            padding-left: 100px;
+        }
 
+        .experience{
+            width: 700px; /* Ширина первого слоя */
+            max-width: 70%;
+            
+            margin-left: 300px;
+            margin-top: -200px;
+            padding-right: 16px;
         }
 
         #section_experience_head{
-            position: absolute;
-            width: 106px;
-            height: 22px;
-            left: 754px;
-            top: 500px;
-
+            
             font-style: normal;
             font-weight: bold;
             font-size: 20px;
             line-height: 22px;
 
-            color: #000000;
+            color: #000000;     
 
         }
 
         #section_experience{
-            position: absolute;
-            width: 521px;
-            height: 198px;
-            left: 899px;
-            top: 500px;
-
             font-style: normal;
             font-weight: normal;
             font-size: 20px;
             line-height: 22px;
-
+            padding-left: 100px;
             color: #000000;
         }
+
+
         #section_languages_head{
-            position: absolute;
-            width: 97px;
-            height: 24px;
-            left: 476px;
-            top: 702px;
+            
 
             font-style: normal;
             font-weight: bold;
             font-size: 20px;
             line-height: 24px;
             /* identical to box height */
-
+            margin-top: 50px;
 
             color: #000000;
 
         }
 
         #section_languages{
-            position: absolute;
-            width: 120px;
-            height: 50px;
-            left: 606px;
-            top: 702px;
+            
 
             font-style: normal;
             font-weight: normal;
@@ -199,13 +150,11 @@
             line-height: 22px;
 
             color: #000000;
+            padding-left: 150px;
+            margin-top: -20px;
         }
         #section_education_head{
-            position: absolute;
-            width: 96px;
-            height: 22px;
-            left: 476px;
-            top: 736px;
+            
 
             font-style: normal;
             font-weight: bold;
@@ -213,13 +162,10 @@
             line-height: 22px;
 
             color: #000000;
+            margin-top: 20px;
         }
         #section_education{
-            position: absolute;
-            width: 811px;
-            height: 264px;
-            left: 606px;
-            top: 738px;
+            
 
             font-style: normal;
             font-weight: normal;
@@ -227,6 +173,8 @@
             line-height: 22px;
 
             color: #000000;
+            padding-left: 150px;
+            margin-top: -20px;
 
         }
 
@@ -234,7 +182,7 @@
     </style>
 </head>
 <body>
-    <div id="body">
+    <div class="wrapper">
         <img src="Photo.png" height=50% width=50% alt="My photo" id="photo" >
         <section id = "section_name">
             <h1>Viacheslav Frolov</h1>
@@ -258,38 +206,41 @@
             </article>
         </section>
 
+        <div class= "skills">
+            <section id = "section_skills_head">
+                Skills:
+            </section>
+    
+            <section id = "section_skills">
+                Javascript
+                <br>HTML
+                <br>CSS
+                <br>Photoshop
+                <br>Figma
+                <br>Balsamiq
+                <br>Axure
+                <br>Git
+            </section>
+        </div>
+        
+        <div class= "experience">
+            <section id = "section_experience_head">
+                Experience:
+            </section>
 
-        <section id = "section_skills_head">
-            Skills:
-        </section>
+            <section id = "section_experience">
+                <article>
+                    Business Analyst of Digital banking development department | VTB Bank (Belarus)
+                    August 2019  - Present<br><br>
 
-        <section id = "section_skills">
-            Javascript
-            HTML,
-            CSS
-            Photoshop
-            Figma
-            Balsamiq
-            Axure
-            Git
-        </section>
+                    Trainee Business Analyst | SoftClub
+                    February - May 2019  Minsk<br><br>
 
-        <section id = "section_experience_head">
-            Experience:
-        </section>
-
-        <section id = "section_experience">
-            <article>
-                Business Analyst of Digital banking development department | VTB Bank (Belarus)
-                August 2019  - Present<br><br>
-
-                Trainee Business Analyst | SoftClub
-                February - May 2019  Minsk<br><br>
-
-                Trainee Business Analyst| Sam-Solutions
-                June July 2018  Minsk<br><br>
-            </article>
-        </section>
+                    Trainee Business Analyst| Sam-Solutions
+                    June July 2018  Minsk<br><br>
+                </article>
+            </section>
+        </div>
 
         <section id = "section_languages_head">
             Languages:
